@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import Header from './Header'
-import { Tasks } from './Tasks'
-import CreateTask from './CreateTask'
 //import { getAllTasks, deleteTask, fetchSettings } from '../services/TodoService'
 
 function Home() {
