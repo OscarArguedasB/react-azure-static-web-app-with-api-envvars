@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({appSettings}) => {
+    const headerColor = appSettings?.headerColor || process.env.REACT_APP_HEADER_COLOR;
+    const headerTitleColor = appSettings?.headerTitleColor || process.env.REACT_APP_HEADER_TITLE_COLOR;
 
-    console.log("headerColor", process.env.HEADER_COLOR)
-    const { headerColor, headerTitleColor } = process.env.HEADER_COLOR
+    console.log("headerColor", process.env.REACT_APP_HEADER_COLOR)
+    const { headerColor, headerTitleColor } = appSettings
     if (!headerColor) {
         return null;
     }
