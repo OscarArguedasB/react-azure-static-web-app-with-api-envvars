@@ -6,9 +6,6 @@ const Header = () => {
     const headerColor = process.env.REACT_APP_HEADER_COLOR;
     const headerTitleColor = process.env.REACT_APP_HEADER_TITLE_COLOR;
 
-    if (!headerColor) {
-        return null;
-    }
     console.log("headerColor", headerColor)
 
     return (
