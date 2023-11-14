@@ -12,17 +12,6 @@ function Home() {
   const [numberOfTasks, setNumberOfTasks] = useState([])
   const [isTaskEdited, setTaskEdited] = useState(false)
   const [appSettings, setAppSettings] = useState({});
-
-
-  useEffect( () => {
-    async function fetchData() {
-      const response = await fetchSettings();
-    
-      setAppSettings(response);
-    }
-    fetchData();
-    
-  },[])
    
 
   function taskCreated() {
