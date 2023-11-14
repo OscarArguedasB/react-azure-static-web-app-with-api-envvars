@@ -9,6 +9,7 @@ const Header = () => {
     if (!headerColor) {
         return null;
     }
+    console.log("headerColor", headerColor)
 
     return (
         <div style={{ backgroundColor: headerColor }} className="header">
