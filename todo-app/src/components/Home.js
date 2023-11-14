@@ -8,7 +8,7 @@ function Home() {
     
   return (
     <div className="App">
-      <Header>Hola</Header>
+      <Header></Header>
       <div className="container mrgnbtm">
         <div className="row">
           <div className="col-md-12">
