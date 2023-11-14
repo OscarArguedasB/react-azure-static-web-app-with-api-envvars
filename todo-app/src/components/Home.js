@@ -12,7 +12,7 @@ function Home() {
       <div className="container mrgnbtm">
         <div className="row">
           <div className="col-md-12">
-              <p>Hola</p>
+              <p>Hola 2</p>
           </div>
         </div>
       </div>
